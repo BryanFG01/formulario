@@ -1,0 +1,31 @@
+.body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.btn-modern{
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.btn-modern:hover{
+    transition: translatey(-5px);
+    background-color: rgb(255, 10, 226);
+    color: white;
+   
+}
+
+.btn-modern::before{
+    content: "hello";
+}
+
+.btn-modern:hover::before{
+    content: "GO!";
+}
